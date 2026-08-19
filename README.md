@@ -14,17 +14,17 @@ Alkalmazottak száma: 100
 
 Épülettervek
 HQ irodaház: 1X router 1X home router 1x firewall ipv4
-Protokollok: Ipv4/Ipv6, DHCP, VPN, ACL, DNS, VLAN, Tűzfal, RIP
-Vezetőségi iroda:
-eszközök: 4X gép, 1X switch 1X laptop
-ip kiosztás: DHCP
-ethernet csatlakozás asztali számítógépeknek
-vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
-Iroda1:
-eszközök: 5X gép, 1X switch
-ip kiosztás: DHCP
-ethernet csatlakozás
-vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
+      Protokollok: Ipv4/Ipv6, DHCP, VPN, ACL, DNS, VLAN, Tűzfal, RIP
+  Vezetőségi iroda:
+      eszközök: 4X gép, 1X switch 1X laptop
+      ip kiosztás: DHCP
+      ethernet csatlakozás asztali számítógépeknek
+      vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
+  Iroda1:
+      eszközök: 5X gép, 1X switch
+      ip kiosztás: DHCP
+      ethernet csatlakozás
+      vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
 IT szoba:
       eszközök: 2X laptop, 1X szerver
       ip kiosztás: DHCP
@@ -46,22 +46,22 @@ Irodaház:  1X router 1X  home router 1x firewall ipv4
       ip kiosztás: DHCP
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
 Datacenter: 1X router 1x firewall
-Protokollok: Ipv4/Ipv6, OSPF, VLAN, Tűzfal, DNS
-Szerverszoba 1
-Eszközök: 4X szerver
-ip kiosztás: Static
-ethernet csatlakozás
-Szerverszoba 2
-Eszközök: 3X szerver
-ip kiosztás: Static
-ethernet csatlakozás
+      Protokollok: Ipv4/Ipv6, OSPF, VLAN, Tűzfal, DNS
+  Szerverszoba 1
+      Eszközök: 4X szerver
+      ip kiosztás: Static
+      ethernet csatlakozás
+  Szerverszoba 2
+      Eszközök: 3X szerver
+      ip kiosztás: Static
+      ethernet csatlakozás
 
 A tervezett protokollok és technológiák listája:
 DHCP
 OSPF
 VLAN
-2. rétegbeli redundancia: van két kábel ugyanazon két switch között.
-3. rétegbeli redundancia: van két különböző router, amelyek ugyanarra a hálózatra vezetnek.
+rétegbeli redundancia: van két kábel ugyanazon két switch között.
+rétegbeli redundancia: van két különböző router, amelyek ugyanarra a hálózatra vezetnek.
 VPN
 ACL
 DNS
