@@ -36,6 +36,7 @@ Irodaház:  1X router 1X  home router 1x firewall ipv4
       ip kiosztás: DHCP
       ethernet csatlakozás asztali számítógépeknek
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
+ 
  iroda2:
       eszközök: 5X gép, 1X switch
       ip kiosztás: DHCP
