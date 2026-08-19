@@ -25,26 +25,26 @@ eszközök: 5X gép, 1X switch
 ip kiosztás: DHCP
 ethernet csatlakozás
 vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
- IT szoba:
-eszközök: 2X laptop, 1X szerver
-ip kiosztás: DHCP
-vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
-Irodaház:  1X router 1X  home router 1x firewall ipv4
- Protokollok: Ipv4/Ipv6, DHCP, DNS, VLAN, Tűzfal, OSPF
- iroda1:
-eszközök: 4X gép, 1X switch 1X laptop
-ip kiosztás: DHCP
-ethernet csatlakozás asztali számítógépeknek
-vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
-iroda2:
-eszközök: 5X gép, 1X switch
-ip kiosztás: DHCP
-ethernet csatlakozás
-vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
 IT szoba:
-eszközök: 2X laptop, 1X szerver
-ip kiosztás: DHCP
-vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
+      eszközök: 2X laptop, 1X szerver
+      ip kiosztás: DHCP
+      vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
+Irodaház:  1X router 1X  home router 1x firewall ipv4
+       Protokollok: Ipv4/Ipv6, DHCP, DNS, VLAN, Tűzfal, OSPF
+ iroda1:
+      eszközök: 4X gép, 1X switch 1X laptop
+      ip kiosztás: DHCP
+      ethernet csatlakozás asztali számítógépeknek
+      vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
+ iroda2:
+      eszközök: 5X gép, 1X switch
+      ip kiosztás: DHCP
+      ethernet csatlakozás
+      vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
+  IT szoba:
+      eszközök: 2X laptop, 1X szerver
+      ip kiosztás: DHCP
+      vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
 Datacenter: 1X router 1x firewall
 Protokollok: Ipv4/Ipv6, OSPF, VLAN, Tűzfal, DNS
 Szerverszoba 1
