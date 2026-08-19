@@ -15,12 +15,18 @@ Alkalmazottak száma: 100
 Épülettervek
 
 HQ irodaház: 1X router 1X home router 1x firewall ipv4
+
       Protokollok: Ipv4/Ipv6, DHCP, VPN, ACL, DNS, VLAN, Tűzfal, RIP
+      
   Vezetőségi iroda:
+  
       eszközök: 4X gép, 1X switch 1X laptop
+      
       ip kiosztás: DHCP
       ethernet csatlakozás asztali számítógépeknek
+      
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
+      
   Iroda1:
       eszközök: 5X gép, 1X switch
       ip kiosztás: DHCP
