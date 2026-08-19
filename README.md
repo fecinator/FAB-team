@@ -28,7 +28,7 @@ Protokollok: Ipv4/Ipv6, DHCP, VPN, ACL, DNS, VLAN, Tűzfal, RIP
       ip kiosztás: DHCP
       ethernet csatlakozás
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
-IT szoba:
+   IT szoba:
       
       eszközök: 2X laptop, 1X szerver
       ip kiosztás: DHCP
