@@ -1,15 +1,16 @@
 # FAB-team
 Cég megnevezése és leírása
 
+Csapat
+Név: FAB team 
+Csapattagok: Forray Ferenc(PM), Kovács Adrián, Várda Balázs
+
 Cég: Defensys inc.
 Leírás: 2025.október 2-án megalakult vállalat, amely mesterséges intelligencián alapuló vírusirtó szolgáltatásokat nyújt. Céljuk, hogy új szintre emeljék a kiberbiztonságot: rendszerük valós időben képes felismerni és semlegesíteni a legújabb fenyegetéseket, még azokat is, amelyek a hagyományos adatbázisokban nem szerepelnek. A cég innovatív megoldásai – mint a prediktív felismerés és a folyamatos tanulás valamint az Ai chat – egyszerre nyújtanak gyors és megbízható védelmet mind lakossági, mind vállalati ügyfeleknek.
 A vállalat technológiája nemcsak az ismert vírusok és kártevők felismerésére alkalmas, hanem a gyanús működések és új típusú támadások azonosítására is. Rendszerük folyamatosan tanul, alkalmazkodik a változó fenyegetésekhez, és valós idejű monitorozással segít megelőzni a kibertámadásokat. A cég célja, hogy a mesterséges intelligencia segítségével gyorsabbá, hatékonyabbá és biztonságosabbá tegye a digitális védelmet. 
 
 Alkalmazottak száma: 100
 
-Csapat
-Név: FAB team 
-Csapattagok: Forray Ferenc(PM), Kovács Adrián, Várda Balázs
 
 Épülettervek
 HQ irodaház: 1X router 1X home router 1x firewall ipv4
