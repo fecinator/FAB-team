@@ -62,12 +62,12 @@ Datacenter: 1X router 1x firewall
       Protokollok: Ipv4/Ipv6, OSPF, VLAN, Tűzfal, DNS
   Szerverszoba 1
       
-      Eszközök: 4X szerver, 1 switch
+      Eszközök: 4X szerver, 1X switch
       ip kiosztás: Static
       ethernet csatlakozás
   Szerverszoba 2
       
-      Eszközök: 3X szerver, 1 switch
+      Eszközök: 3X szerver, 1X switch
       ip kiosztás: Static
       ethernet csatlakozás
 
