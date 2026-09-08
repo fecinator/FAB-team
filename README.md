@@ -57,17 +57,17 @@ Irodaház:  1X router 1X  home router 1x firewall ipv4
       ip kiosztás: DHCP
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
 
-Datacenter: 1X router 1x firewall
+Datacenter: 1X router 1x firewall 
       
       Protokollok: Ipv4/Ipv6, OSPF, VLAN, Tűzfal, DNS
   Szerverszoba 1
       
-      Eszközök: 4X szerver
+      Eszközök: 4X szerver, 1 switch
       ip kiosztás: Static
       ethernet csatlakozás
   Szerverszoba 2
       
-      Eszközök: 3X szerver
+      Eszközök: 3X szerver, 1 switch
       ip kiosztás: Static
       ethernet csatlakozás
 
