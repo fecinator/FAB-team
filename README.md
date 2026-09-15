@@ -34,6 +34,7 @@ HQ irodaház: 1X router 1X home router 1x firewall ipv4
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
       
   Iroda1:
+  
       HQ routerből  iroda1-be: 192.168.20.1 255.255.255.0
       
       eszközök: 5X gép, 1X switch
