@@ -14,12 +14,18 @@ A vállalat technológiája nemcsak az ismert vírusok és kártevők felismeré
 Épülettervek
 
 HQ irodaház: 1X router 1X home router 1x firewall ipv4
+
   HQ routerből irodaház routerbe: 10.0.20.1 255.255.255.0
+
   HQ routerből datacenter routerbe: 10.0.30.1 255.255.255.0
+  
   HQ routerből HQ homerouterbe: 192.168.30.1 255.255.255.0
-  Protokollok: Ipv4/Ipv6, DHCP, VPN, ACL, DNS, VLAN, Tűzfal, RIP   
+  
+  Protokollok: Ipv4/Ipv6, DHCP, VPN, ACL, DNS, VLAN, Tűzfal, RIP  
+  
   Vezetőségi iroda:
     HQ routerből vezetőségi irodába: 192.168.10.1 255.255.255.0
+    
     eszközök: 4X gép, 1X switch, 1X laptop
   ip kiosztás: DHCP
       
