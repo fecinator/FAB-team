@@ -66,6 +66,7 @@ Irodaház:  1X router 1X  home router 1x firewall ipv4
       ip kiosztás: DHCP
       ethernet csatlakozás
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
+      
   IT szoba:
   
       Irodaház routerből It szobába: 192.168.60.1 255.255.255.0
@@ -76,12 +77,15 @@ Irodaház:  1X router 1X  home router 1x firewall ipv4
 Datacenter: 1X router 1x firewall 
       
       Protokollok: Ipv4/Ipv6, OSPF, VLAN, Tűzfal, DNS
-  Szerverszoba 1
+  Szerverszoba 1:
+  
       Datacenter routerből szerverszoba 1-be: 192.168.80.1 255.255.255.0
       Eszközök: 4X szerver, 1X switch
       ip kiosztás: Static
       ethernet csatlakozás
-  Szerverszoba 2
+      
+  Szerverszoba 2:
+  
       Datacenter routerből szerverszoba 2-be: 192.168.90.1 255.255.255.0
       Eszközök: 3X szerver, 1X switch
       ip kiosztás: Static
