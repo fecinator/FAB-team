@@ -26,7 +26,6 @@ HQ irodaház: 1X router 1X home router 1x firewall ipv4
   Vezetőségi iroda:
   
     HQ routerből vezetőségi irodába: 192.168.10.1 255.255.255.0
-    
     eszközök: 4X gép, 1X switch, 1X laptop
   ip kiosztás: DHCP
       
