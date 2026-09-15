@@ -11,7 +11,7 @@ A vállalat technológiája nemcsak az ismert vírusok és kártevők felismeré
 
 
 
-Épülettervek
+Épülettervek:
 
 HQ irodaház: 1X router 1X home router 1x firewall ipv4
 
@@ -24,6 +24,7 @@ HQ irodaház: 1X router 1X home router 1x firewall ipv4
   Protokollok: Ipv4/Ipv6, DHCP, VPN, ACL, DNS, VLAN, Tűzfal, RIP  
   
   Vezetőségi iroda:
+  
     HQ routerből vezetőségi irodába: 192.168.10.1 255.255.255.0
     
     eszközök: 4X gép, 1X switch, 1X laptop
@@ -34,7 +35,9 @@ HQ irodaház: 1X router 1X home router 1x firewall ipv4
       
   Iroda1:
       HQ routerből  iroda1-be: 192.168.20.1 255.255.255.0
+      
       eszközök: 5X gép, 1X switch
+      
       ip kiosztás: DHCP
       ethernet csatlakozás
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
@@ -48,18 +51,22 @@ Irodaház:  1X router 1X  home router 1x firewall ipv4
        
        Protokollok: Ipv4/Ipv6, DHCP, DNS, VLAN, Tűzfal, OSPF
  iroda1:
+ 
       Irodaház routerből Iroda1-be: 192.168.40.1 255.255.255.0
+      
       eszközök: 4X gép, 1X switch, 1X laptop
       ip kiosztás: DHCP
       ethernet csatlakozás asztali számítógépeknek
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
    iroda2:
+   
       Irodaház routerből Iroda2-be: 192.168.50.1 255.255.255.0
       eszközök: 5X gép, 1X switch
       ip kiosztás: DHCP
       ethernet csatlakozás
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
   IT szoba:
+  
       Irodaház routerből It szobába: 192.168.60.1 255.255.255.0
       eszközök: 2X laptop, 1X szerver
       ip kiosztás: DHCP
