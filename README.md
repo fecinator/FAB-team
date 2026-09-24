@@ -94,14 +94,17 @@ Datacenter: 1X router 1x firewall
   Irodaház3: DHCP, Multi layer switch
   
   Iroda1: 
+  
   eszközök: 1x switch, server
   ip kiosztás: DHCP
   
  Iroda2:
+ 
  eszközök: 1x switch, 4x PC
  ip kiosztás: DHCP
 
  Iroda3:
+ 
  eszközök: 1x switch, 4x PC
  ip kiosztás: DHCP
  
