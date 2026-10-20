@@ -9,7 +9,7 @@ Cég: Defensys inc.
 Leírás: 2025.október 2-án megalakult vállalat, amely mesterséges intelligencián alapuló vírusirtó szolgáltatásokat nyújt. Céljuk, hogy új szintre emeljék a kiberbiztonságot: rendszerük valós időben képes felismerni és semlegesíteni a legújabb fenyegetéseket, még azokat is, amelyek a hagyományos adatbázisokban nem szerepelnek. A cég innovatív megoldásai – mint a prediktív felismerés és a folyamatos tanulás valamint az Ai chat – egyszerre nyújtanak gyors és megbízható védelmet mind lakossági, mind vállalati ügyfeleknek.
 A vállalat technológiája nemcsak az ismert vírusok és kártevők felismerésére alkalmas, hanem a gyanús működések és új típusú támadások azonosítására is. Rendszerük folyamatosan tanul, alkalmazkodik a változó fenyegetésekhez, és valós idejű monitorozással segít megelőzni a kibertámadásokat. A cég célja, hogy a mesterséges intelligencia segítségével gyorsabbá, hatékonyabbá és biztonságosabbá tegye a digitális védelmet. 
 
-
+Budapest:
 
 Épülettervek:
 
@@ -42,20 +42,36 @@ HQ irodaház: 1X router 1X home router 1x firewall ipv4
       ip kiosztás: DHCP
       ethernet csatlakozás
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
-   IT szoba:
+   IT dept.:
       
-      eszközök: 2X laptop, 1X szerver
+      eszközök: 3X gép, 1X switch
       ip kiosztás: DHCP
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
 
-Irodaház:  1X router 1X  home router 1x firewall ipv4
+  HR:
+    eszközök: 4X gép , 1X switch
+    ip kiosztás: DHCP
+
+ Datacenter: 
+
+ Szerverszoba1:
+ eszközök: 4X server, 1X switch
+
+ Szerverszoba2:
+ eszközök: 3X server, 1X switch
+
+ Datacenter-iroda:
+ eszközök: 3X gép, 1X switch
+ 
+
+Irodaház-Pécs:  1X router 1X  home router 1X firewall ipv4
        
        Protokollok: Ipv4/Ipv6, DHCP, DNS, VLAN, Tűzfal, OSPF
  iroda1:
  
       Irodaház routerből Iroda1-be: 192.168.40.1 255.255.255.0
       
-      eszközök: 4X gép, 1X switch, 1X laptop
+      eszközök: 4X gép, 1X switch, 
       ip kiosztás: DHCP
       ethernet csatlakozás asztali számítógépeknek
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
@@ -67,12 +83,16 @@ Irodaház:  1X router 1X  home router 1x firewall ipv4
       ethernet csatlakozás
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
       
-  IT szoba:
-  
-      Irodaház routerből It szobába: 192.168.60.1 255.255.255.0
-      eszközök: 2X laptop, 1X szerver
-      ip kiosztás: DHCP
-      vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
+  HR(1):
+  eszközök: 4X gép, 1X switch
+  ip kiosztás: DHCP
+
+  Finance(1):
+  eszközök: 4X gép, 1X switch
+  ip kiosztás: DHCP
+
+  Pécs-homerouter:
+  eszközök: 1X laptop, 2X tablet, 3X telefon
 
 Datacenter: 1X router 1x firewall 
       
