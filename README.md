@@ -67,6 +67,7 @@ HQ irodaház: 1X router 1X home router 1x firewall ipv4
 Irodaház-Pécs:  1X router 1X  home router 1X firewall ipv4
        
        Protokollok: Ipv4/Ipv6, DHCP, DNS, VLAN, Tűzfal, OSPF
+       
  iroda1:
  
       Irodaház routerből Iroda1-be: 192.168.40.1 255.255.255.0
@@ -75,6 +76,7 @@ Irodaház-Pécs:  1X router 1X  home router 1X firewall ipv4
       ip kiosztás: DHCP
       ethernet csatlakozás asztali számítógépeknek
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
+      
    iroda2:
    
       Irodaház routerből Iroda2-be: 192.168.50.1 255.255.255.0
@@ -83,16 +85,51 @@ Irodaház-Pécs:  1X router 1X  home router 1X firewall ipv4
       ethernet csatlakozás
       vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
       
-  HR(1):
+  HR:
   eszközök: 4X gép, 1X switch
   ip kiosztás: DHCP
 
-  Finance(1):
+  Finance:
   eszközök: 4X gép, 1X switch
   ip kiosztás: DHCP
 
   Pécs-homerouter:
   eszközök: 1X laptop, 2X tablet, 3X telefon
+
+  Kecskemét:
+
+  Irodaház-Kecskemét:  1X router 1X  home router 1X firewall ipv4
+       
+       Protokollok: Ipv4/Ipv6, DHCP, DNS, VLAN, Tűzfal, OSPF
+       
+ iroda1:
+ 
+      Irodaház routerből Iroda1-be: 192.168.40.1 255.255.255.0
+      
+      eszközök: 4X gép, 1X switch, 
+      ip kiosztás: DHCP
+      ethernet csatlakozás asztali számítógépeknek
+      vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
+      
+   iroda2:
+   
+      Irodaház routerből Iroda2-be: 192.168.50.1 255.255.255.0
+      eszközök: 5X gép, 1X switch
+      ip kiosztás: DHCP
+      ethernet csatlakozás
+      vezeték nélküli kapcsolat laptopokhoz, mobilokhoz
+      
+  HR:
+  eszközök: 4X gép, 1X switch
+  ip kiosztás: DHCP
+
+  Finance:
+  eszközök: 4X gép, 1X switch
+  ip kiosztás: DHCP
+
+  Kecskemét-homerouter:
+  eszközök: 1X laptop, 2X tablet, 3X telefon
+
 
 Datacenter: 1X router 1x firewall 
       
