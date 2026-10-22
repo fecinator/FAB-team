@@ -13,7 +13,7 @@ Budapest:
 
 Épülettervek:
 
-HQ irodaház: 1X router 1X home router 1x firewall ipv4
+HQ irodaház: 1X router 1X home router 1x firewall ipv4 
 
   HQ routerből irodaház routerbe: 10.0.20.1 255.255.255.0
 
